@@ -1,4 +1,8 @@
-# Donut Shop Rankings
+---
+layout: page
+title: Rankings
+permalink: /rankings/
+---
 
 ## About These Rankings
 These rankings give an idea of how each donut shop stacks up against the others. They are subjective and will likely evolve over time. Donuts shops within a tier are all pretty similar. For example, even though Fluffy Fresh, Lamar's, and Walmart Bakery are all adjacent in the rankings there is a much bigger gap between Fluffy Fresh and Lamar's than there is between Lamar's and Walmart Bakery.
