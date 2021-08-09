@@ -19,25 +19,26 @@ These rankings give an idea of how each donut shop stacks up against the others.
 <b>Upcoming</b> - Places that I've heard of or that were recommended to me that I have yet to try.
 
 ## Great
-1\. Mr. D's Donuts <br>
-2\. Fluffy Fresh Donuts <br>
+1\.  Mr. D's Donuts <br>
+2\.  Fluffy Fresh Donuts <br>
 
 ## Good
-3\. Lamar's Donuts <br>
-4\. Walmart Bakery <br>
-5\. Duck Donuts <br>
-6\. Krispy Kreme <br>
+3\.  Lamar's Donuts <br>
+4\.  Hana's Donuts <br>
+5\.  Walmart Bakery <br>
+6\.  Duck Donuts <br>
+7\.  Krispy Kreme <br>
 
 ## Okay
-7\. Daylight Donuts <br>
-8\. Dunkin' Donuts <br>
-9\. Hurts Donut Company <br>
+8\.  YOS Donut <br>
+9\.  Daylight Donuts <br>
+10\. Dunkin' Donuts <br>
+11\. Hurts Donut Company <br>
 
 ## Poor
-10\. DOP Donuts <br>
+12\. DOP Donuts <br>
 
 ## Upcoming
-- Hana's Donuts
 - Donut King
 - Johnny's Donuts
 - Holt's Donuts
