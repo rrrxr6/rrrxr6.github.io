@@ -1,0 +1,13 @@
+- name: Best
+  link: /#
+  dropdown:
+    - name: Overall Shop
+      link: /rankings/
+    - name: Local Shop
+      link: /local/
+    - name: Glazed Donut
+      link: /glazed/
+    - name: Maple Bar
+      link: /maple/
+    - name: Cake Donut
+      link: /cake/
