@@ -27,7 +27,7 @@ disqus:
   shortname:
 
 remote_theme: chrisrhymes/bulma-clean-theme@v0.11.2
-theme: bulma-clean-theme
+
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
