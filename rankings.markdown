@@ -26,22 +26,22 @@ These rankings give an idea of how each donut shop stacks up against the others.
 ## Good
 3\. Lamar's Donuts <br>
 4\. Hana's Donuts <br>
-5\. Walmart Bakery <br>
-6\. Duck Donuts <br>
-7\. Krispy Kreme <br>
+5\. Donut King <br>
+6\. Walmart Bakery <br>
+7\. Duck Donuts <br>
+8\. Krispy Kreme <br>
 
 ## Okay
-8\. Holt's Donuts <br>
-9\. YOS Donut <br>
-10\. Daylight Donuts <br>
-11\. Dunkin' Donuts <br>
-12\. Hurts Donut Company <br>
+9\. Holt's Donuts <br>
+10\. YOS Donut <br>
+11\. Daylight Donuts <br>
+12\. Dunkin' Donuts <br>
+13\. Hurts Donut Company <br>
 
 ## Poor
-13\. DOP Donuts <br>
+14\. DOP Donuts <br>
 
 ## Upcoming
-- Donut King
 - Johnny's Donuts
 - Donutology
 - Ray's Donuts
