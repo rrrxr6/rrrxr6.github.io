@@ -26,9 +26,9 @@ These rankings give an idea of how each donut shop stacks up against the others.
 ## Good
 3\. Lamar's Donuts <br>
 4\. Hana's Donuts <br>
-5\. Donut King <br>
-6\. Walmart Bakery <br>
-7\. Duck Donuts <br>
+5\. Walmart Bakery <br>
+6\. Duck Donuts <br>
+7\. Donut King <br>
 8\. Krispy Kreme <br>
 
 ## Okay
