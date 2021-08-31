@@ -22,7 +22,12 @@ permalink: /rankings/
 <b>Upcoming</b> - Places that I've heard of or that were recommended to me that I have yet to try.
 
 <ul class="block-list is-small is-primary is-centered">
-    <li onclick="toggle()" onmousedown="this.classList.toggle('is-highlighted')" onmouseup="this.classList.toggle('is-highlighted')">Toggle Local Shops Only</li>
+    <li class="has-icon" onclick="toggle()" onmousedown="this.classList.toggle('is-highlighted')" onmouseup="this.classList.toggle('is-highlighted')">
+        <span class="icon">
+            <i id="toggle" class="fas fa-toggle-on"></i>
+        </span>
+        <span>Toggle Local Shops Only</span>
+    </li>
 </ul>
 
 <h2>Great</h2>
@@ -30,19 +35,19 @@ permalink: /rankings/
 2. Fluffy Fresh Donuts <br>
 
 <h2>Good</h2>
-<span>3. Lamar's Donuts <br></span>
+<span class="chain">3. Lamar's Donuts <br></span>
 4. Hana's Donuts <br>
-<span>5. Walmart Bakery <br></span>
-<span>6. Duck Donuts <br></span>
+<span class="chain">5. Walmart Bakery <br></span>
+<span class="chain">6. Duck Donuts <br></span>
 7. Donut King <br>
-<span>8. Krispy Kreme <br></span>
+<span class="chain">8. Krispy Kreme <br></span>
 
 <h2>Okay</h2>
 9. Holt's Donuts <br>
 10. YOS Donut <br>
-<span>11. Daylight Donuts <br></span>
-<span>12. Dunkin' Donuts <br></span>
-<span>13. Hurts Donut Company <br></span>
+<span class="chain">11. Daylight Donuts <br></span>
+<span class="chain">12. Dunkin' Donuts <br></span>
+<span class="chain">13. Hurts Donut Company <br></span>
 
 <h2>Poor</h2>
 14. DOP Donuts <br>
@@ -58,13 +63,16 @@ permalink: /rankings/
 
 <script>
     function toggle() {
-        var spans = document.getElementsByTagName("span");
+        var spans = document.getElementsByClassName("chain");
         for(let i = 0; i < spans.length; i++)
         {
-            spans[i].classList.toggle("show");
+            spans[i].classList.toggle("hide");
         }
+        document.getElementById("toggle").classList.toggle("fa-toggle-on")
+        document.getElementById("toggle").classList.toggle("fa-toggle-off")
     }
 </script>
 <style>
-    .show {display:block;}
+    .hide {display:none;}
+    .block-list {cursor: pointer;}
 </style>
