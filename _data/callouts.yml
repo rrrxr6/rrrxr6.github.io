@@ -1,0 +1,18 @@
+style: is-light
+height: is-small
+items:
+  - title:
+    subtitle:
+    icon: fa-store-alt 
+    call_to_action_name: Best Donut Shop
+    call_to_action_link: /shops/
+  - title:
+    subtitle:
+    icon: fa-dot-circle 
+    call_to_action_name: Best Glazed Donut
+    call_to_action_link: /glazed/
+  - title:
+    subtitle:
+    icon: fa-minus 
+    call_to_action_name: Best Maple Bar
+    call_to_action_link: /maple/
