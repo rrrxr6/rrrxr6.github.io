@@ -10,10 +10,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://kcdonuts.best"
 permalink: pretty
-#favicon: /path/to/favicon.png
+favicon: /assets/img/favicon.png
 #gh_sponsor: 
 #hide_share_buttons: true
-theme_color: "#673ab7"
+theme_color: "#fc5162" #fc5162, #fc3842
 #fixed_navbar: top
 
 paginate: 5
