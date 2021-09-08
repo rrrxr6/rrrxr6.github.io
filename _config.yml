@@ -13,7 +13,7 @@ permalink: pretty
 favicon: /assets/img/favicon.png
 #gh_sponsor: 
 #hide_share_buttons: true
-theme_color: "#fc5162" #fc5162, #fc3842
+theme_color: "#fc5162"
 #fixed_navbar: top
 
 paginate: 5
