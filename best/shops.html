@@ -1,14 +1,9 @@
 ---
 layout: page
 title: Best Donut Shops
-hide_hero: true
+hero_height: is-small
 permalink: /shops/
 ---
-
-<h1>Best Donut Shops</h1>
-<p>
-    These rankings give an idea of how each donut shop stacks up against the others. They are subjective and will likely evolve over time. Donuts shops within a tier are all pretty similar. For example, even though Fluffy Fresh, Lamar's, and Hana's are all adjacent in the rankings there is a much bigger gap between Fluffy Fresh and Lamar's than there is between Lamar's and Hana's.
-</p>
 
 <h2>Tier Explanations</h2>
 <b>Great</b> - The best of the best. I would go out of my way to grab a donut from these places. Little to nothing to complain about.
@@ -23,11 +18,8 @@ permalink: /shops/
 <br><br>
 
 <ul class="block-list is-small is-primary is-centered" style="width: fit-content;">
-    <li class="has-icon" onclick="toggle()" onmousedown="this.classList.toggle('is-highlighted')" onmouseup="this.classList.toggle('is-highlighted')">
-        <span class="icon">
-            <i id="toggle" class="fas fa-toggle-on"></i>
-        </span>
-        <span>Toggle Local Shops Only</span>
+    <li onclick="toggle()" onmousedown="this.classList.toggle('is-highlighted')" onmouseup="this.classList.toggle('is-highlighted')">
+        <span>Show Only Local Shops</span>
     </li>
 </ul>
 
@@ -62,7 +54,6 @@ permalink: /shops/
     <li>Donutology</li>
     <li>Ray's Donuts</li>
     <li>Ridgewood Donuts</li>
-    <li>Doughboys Donuts</li>
 </ul>
 
 <script>
@@ -72,8 +63,6 @@ permalink: /shops/
         {
             spans[i].classList.toggle("hide");
         }
-        document.getElementById("toggle").classList.toggle("fa-toggle-on")
-        document.getElementById("toggle").classList.toggle("fa-toggle-off")
     }
 </script>
 <style>
