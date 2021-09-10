@@ -1,0 +1,117 @@
+great:
+  - name: Mr. D's Donuts
+    location: 11222 W 75th St, Shawnee, KS 66214
+    image: /assets/img/mrds/mrds1.jpg
+    icon: far fa-laugh-beam
+    pros:
+      - Fluffy donuts with crisp exterior
+      - Friendly staff
+  - name: Fluffy Fresh Donuts
+    location: 5729 Johnson Dr, Mission, KS 66202
+    image: /assets/img/fluffyfresh/fluffyfresh1.jpg
+    icon: far fa-laugh-beam
+    pros:
+      - Fluffy, fresh donuts of all kinds
+      - Cheap
+    cons:
+      - Cash only
+      - Sells out early
+good:
+  - name: Lamar's Donuts
+    image: https://via.placeholder.com/640x480
+    icon: far fa-smile
+    pros:
+      - Big, pillowy glazed donuts
+      - Great variety
+    cons:
+      - Lacking texture
+      - Donuts err on the side of being undercooked
+  - name: Hana's Donuts
+    location: 2131 S 34th St, Kansas City, KS 66106
+    image: /assets/img/hanas/hanas1.jpg
+    icon: far fa-smile
+    pros:
+      - Variety of non-standard flavors
+      - Beautiful presentation
+      - Great citrus flavors
+  - name: Walmart Bakery
+    image: https://via.placeholder.com/640x480
+    icon: far fa-smile
+    pros:
+      - Soft, dense donuts
+      - Cheap
+    cons:
+      - Quality/availability varies wildly based on location
+  - name: Duck Donuts
+    image: https://via.placeholder.com/640x480
+    icon: far fa-smile
+    pros:
+      - Fun flavors that rotate seasonally
+      - Warm donuts
+    cons:
+      - Only cake donuts
+      - Slow since they are made (iced) to order
+  - name: Donut King
+    location: 2320 Armour Rd, North Kansas City, MO 64116
+    image: /assets/img/donutking/donutking1.jpg
+    icon: far fa-smile
+    pros:
+      - Big, moist cake donuts
+      - Great website
+      - Can order ahead by phone
+  - name: Krispy Kreme
+    image: https://via.placeholder.com/640x480
+    icon: far fa-smile
+    pros:
+      - Hot, melt in your mouth glazed donuts
+okay:
+  - name: Holt's Donuts
+    location: 1325 Main St, Grandview, MO 64030
+    image: /assets/img/holts/holts1.jpg
+    icon: far fa-meh
+    pros:
+      - Soft icing that is spread on, not dipped
+    cons:
+      - Yeasty donuts
+  - name: YOS Donut
+    location: 7170 Renner Rd, Shawnee, KS 66217
+    image: https://via.placeholder.com/640x480
+    icon: far fa-meh
+    pros:
+      - Good maple-iced cinnamon rolls
+    cons:
+      - Chewy donuts
+  - name: Daylight Donuts
+    image: https://via.placeholder.com/640x480
+    icon: far fa-meh
+    pros:
+      - Great website
+      - Can order ahead online
+    cons:
+      - Flat donuts
+  - name: Dunkin'
+    image: https://via.placeholder.com/640x480
+    icon: far fa-meh
+    pros:
+      - Fun seasonal flavors
+    cons:
+      - Bread-like donuts
+  - name: Hurts Donut Company
+    image: https://via.placeholder.com/640x480
+    icon: far fa-meh
+    pros:
+      - Open 24/7
+    cons:
+      - Stale donuts
+      - Limited selection during off hours
+poor:
+  - name: DOP Donuts
+    location: 7512 W 80th St, Overland Park, KS 66204
+    image: https://via.placeholder.com/640x480
+    icon: far fa-frown
+    pros:
+      - Cute outdoor decor
+    cons:
+      - Expensive
+      - Limited selection
+      - Flavorless icing

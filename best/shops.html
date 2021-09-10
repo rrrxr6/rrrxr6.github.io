@@ -17,35 +17,53 @@ permalink: /shops/
 <b>Upcoming</b> - Places that I've heard of or that were recommended to me that I have yet to try.
 <br><br>
 
-<ul class="block-list is-small is-primary is-centered" style="width: fit-content;">
+<ul id="shop-toggle" class="block-list is-small is-primary is-centered" style="width: fit-content;">
     <li onclick="toggle()" onmousedown="this.classList.toggle('is-highlighted')" onmouseup="this.classList.toggle('is-highlighted')">
-        <span>Show Only Local Shops</span>
+        <span id="local-shops">Show Only Local Shops</span>
+        <span id="all-shops" class="hide">Show All Shops</span>
     </li>
 </ul>
 
-<ol>
-    <h2>Great</h2>
-    <li>Mr. D's Donuts</li>
-    <li>Fluffy Fresh Donuts</li>
+<h2>Great <i class="far fa-laugh-beam"></i></h2>
+<ul class="block-list is-dark is-outlined">
+    {% for shop in site.data.shops.great %}
+        <li>
+            {% include shop.html shop=shop %}
+        </li>
+    <br>
+    {% endfor %}
+</ul>
 
-    <h2>Good</h2>
-    <span class="chain"><li>Lamar's Donuts</li></span>
-    <li>Hana's Donuts</li>
-    <span class="chain"><li>Walmart Bakery</li></span>
-    <span class="chain"><li>Duck Donuts</li></span>
-    <li>Donut King</li>
-    <span class="chain"><li>Krispy Kreme</li></span>
+<h2>Good <i class="far fa-smile"></i></h2>
+<ul class="block-list is-dark is-outlined">
+    {% for shop in site.data.shops.good %}
+        <li>
+            {% include shop.html shop=shop %}
+        </li>
+    <br>
+    {% endfor %}
+</ul>
 
-    <h2>Okay</h2>
-    <li>Holt's Donuts</li>
-    <li>YOS Donut</li>
-    <span class="chain"><li>Daylight Donuts</li></span>
-    <span class="chain"><li>Dunkin'</li></span>
-    <span class="chain"><li>Hurts Donut Company</li></span>
+<h2>Okay <i class="far fa-meh"></i></h2>
+<ul class="block-list is-dark is-outlined">
+    {% for shop in site.data.shops.okay %}
+        <li>
+            {% include shop.html shop=shop %}
+        </li>
+    <br>
+    {% endfor %}
+</ul>
 
-    <h2>Poor</h2>
-    <li>DOP Donuts</li>
-</ol>
+<h2>Poor <i class="far fa-frown"></i></h2>
+<ul class="block-list is-dark is-outlined">
+    {% for shop in site.data.shops.poor %}
+        <li>
+            {% include shop.html shop=shop %}
+        </li>
+    <br>
+    {% endfor %}
+</ul>
+
 <br>
 
 <ul>
@@ -57,15 +75,18 @@ permalink: /shops/
 </ul>
 
 <script>
-    function toggle() {
-        var spans = document.getElementsByClassName("chain");
-        for(let i = 0; i < spans.length; i++)
+    function toggle() 
+    {
+        var chains = document.getElementsByClassName("chain");
+        for(let i = 0; i < chains.length; i++)
         {
-            spans[i].classList.toggle("hide");
+            chains[i].closest("li").classList.toggle("hide");
         }
+        document.getElementById("local-shops").classList.toggle("hide")
+        document.getElementById("all-shops").classList.toggle("hide")
     }
 </script>
 <style>
     .hide {display:none;}
-    .block-list {cursor: pointer;}
+    #shop-toggle {cursor: pointer;}
 </style>
