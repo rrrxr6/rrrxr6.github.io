@@ -1,0 +1,38 @@
+<div class="columns is-multiline">
+
+    <div class="column is-4">
+        <figure class="image is-4by3">
+            <img src="{{ shop.image }}" />
+        </figure>
+    </div>
+
+    <div class="column is-8">
+        <p class="title is-4">{{ shop.name }}<span class="title-icon"><i class="{{ shop.icon }}"></i></span></p>
+        {% if shop.location %}
+        <p class="subtitle is-4">{{ shop.location }}</p>
+        {% else %}
+        <p class="chain"></p>
+        {% endif %}
+
+        <div class="content">
+            {% for pro in shop.pros %}
+            <p>
+                <span class="icon">
+                    <i class="fas fa-plus-circle"></i>
+                </span> 
+                <span>{{ pro }}</span>
+            </p>
+            {% endfor %}
+            
+            {% for con in shop.cons %}
+            <p>
+                <span class="icon">
+                    <i class="fas fa-minus-circle"></i>
+                </span> 
+                <span>{{ con }}</span>
+            </p>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
